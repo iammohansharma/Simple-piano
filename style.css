@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+ background-image: url(osman-rana-h8ZvH1Nf7Bk-unsplash.jpg);
+}
+
+.app {
+  min-height: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ color: white;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+}
+.board {
+  margin-left: 280px;
+  height: 280px;
+width: max-content;
+  display: flex;
+
+}
+
+.white {
+  position: relative;
+  width: 100px;
+  height: 400px;
+  background: #f9eaff;
+  margin-left: 5px;
+ }
+
+
+
+.black {
+  width: 60px;
+  height: 300px;
+  background: #000;
+  margin: 0 -30px;
+  z-index: 1;
+}
+
+
